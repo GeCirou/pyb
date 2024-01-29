@@ -13,100 +13,71 @@
     </header>
     <main>
         <section class="main-tabla">
-            <table>
-                <tr>
-                    <td>Bancas</td>
-                    <td>Puntos</td>
-                    <td>Ancar</td>
+            <div>
+                <button id="boton_banca" onclick="bancaGana()">Banca</button>
+                <button id="boton_punto" onclick="puntoGana()">Punto</button>
+                <button id="boton_ancar" onclick="ancarDio()">Ancar</button>
+            </div>
+            <table class="tabla_resultados">
+                <tr class="tabla-titulo">
+                    <td>B</td>
+                    <td>P</td>
+                    <td>B</td>
+                    <td>P</td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td id="B1"></td>
+                    <td id="P1"></td>
+                    <td id="B41"></td>
+                    <td id="P41"></td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                </tr>
-                <tr>
-                    <td><button></button></td>
-                    <td><button></button></td>
-                    <td><button></button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </section>
         <section class="main-resultados">
-            <button type="reset">Reset</button>
+            <button type="reset"  id="boton_reset" onclick="reset()">Reset</button>
+            <div class="pases">
+                <label for="">Pases: <label id="label_pase"></label></label>
+            </div>
             <div class="resultados">
-                <label for="">Banca: </label>
-                <label for="">Punto: </label>
-                <label for="">Ancar: </label>
+                <label for="">Banca: <label id="label_banca"></label></label>
+                <label for="">Punto: <label id="label_punto"></label></label>
+                <label for="">Ancar: <label id="label_ancar"></label></label>
             </div>
         </section>
     </main>
     <footer>
         <p>Creado por: Noe, Guidi y Alfre</p>
     </footer>
+    <script src="score.js"></script>
 </body>
 </html>
