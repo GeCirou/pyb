@@ -14,6 +14,7 @@ h1 {
     font-size: 3rem;
 }
 
+/* MAIN */
 main {
     display: grid;
     grid-template-columns: 70% 30%;
@@ -32,6 +33,7 @@ button {
     border-radius: 5px;
 }
 
+/* TABLA */
 .main-tabla table {
     /*width: 75%;*/
     margin-top: 2rem;
@@ -56,9 +58,32 @@ button {
 .tabla_resultados td {
     height: 2rem;
     width: 10rem;
-    border: 1px black solid;
 }
 
+/* BORDES TABLA */
+.top-left,
+.top-right,
+.table-left,
+.table-right {
+    border: 1px black solid;
+}
+.top-left {
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-top-left-radius: 10px;
+}
+.top-right {
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    border-top-right-radius: 10px;
+}
+.table-left {
+    border-left: 2px black solid;
+}
+.table-right {
+    border-right: 2px black solid;
+}
+/* FOOTER */
 footer {
     margin-top: 3rem;
     margin-bottom: 1rem;
