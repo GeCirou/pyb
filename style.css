@@ -1,0 +1,12 @@
+main {
+    width: 400px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.resultados {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
