@@ -73,7 +73,9 @@ button {
 .top-left,
 .top-right,
 .table-left,
-.table-right {
+.table-right,
+.bottom-left,
+.bottom-right {
     border: 1px black solid;
 }
 .top-left {
@@ -92,6 +94,17 @@ button {
 .table-right {
     border-right: 2px black solid;
 }
+.bottom-left {
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom-left-radius: 10px;
+}
+.bottom-right {
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom-right-radius: 10px;
+}
+
 /* FOOTER */
 footer {
     border-top: 1px black dotted;
