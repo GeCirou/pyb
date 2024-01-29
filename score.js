@@ -96,8 +96,7 @@ function volver() {
 }
 
 function reset() {
-    let confirma = "¿Seguro quiere borrar todo?"
-    if (confirm(confirma)) {
+    if (confirm("¿Seguro quiere borrar todo?")) {
         pases = 0;
         bancas = 0;
         puntos = 0;
