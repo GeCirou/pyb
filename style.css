@@ -20,17 +20,26 @@ main {
     grid-template-columns: 70% 30%;
 }
 
-button {
-    padding: .5rem;
-    font-size: 2rem;
-}
-
 .main-tabla,
 .main-resultados {
     padding: 2rem;
     margin: 0 auto;
     border: 2px black solid;
     border-radius: 5px;
+}
+
+/* BOTONERA */
+.botonera {
+    display: grid;
+}
+button {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    font-size: 2rem;
+}
+.boton-reset {
+    margin-top: 2rem;
 }
 
 /* TABLA */
@@ -85,6 +94,7 @@ button {
 }
 /* FOOTER */
 footer {
+    border-top: 1px black dotted;
     margin-top: 3rem;
     margin-bottom: 1rem;
     font-size: 2rem;
