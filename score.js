@@ -1,4 +1,4 @@
-var colorPrimario = "#00b100";
+var colorPrimario = "#008900";
 var  colorSecundario = "#000";
 var colorCheck = "#000";
 

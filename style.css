@@ -3,8 +3,8 @@
     --colorSecundario: #000;
     --colorBoton: #e6c200;
     --colorBoton2: #897400;
-    --colorBackground: #00b100;
-    --colorBackgroundGrad: #006200;
+    --colorBackground: #008900;
+    --colorBackgroundGrad: #003b00;
 }
 
 * {
@@ -17,7 +17,7 @@ html {
     height: 100%;
 }
 body {
-    background-color: #00b100;
+    background-color: var(--colorBackground);
     min-height: 100%;
 }
 .grid-container {
@@ -98,6 +98,7 @@ button {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(30, 1fr);
+    column-gap: 5px;
 }
 
 /* BORDES TABLA */
@@ -113,29 +114,29 @@ button {
     color: var(--colorPrimario);
 }
 .top-left {
-    border-top: 2px var(--colorPrimario) solid;
-    border-left: 2px var(--colorPrimario) solid;
+    border-top: 4px var(--colorPrimario) solid;
+    border-left: 4px var(--colorPrimario) solid;
     border-top-left-radius: 10px;
 }
 .top-right {
-    border-top: 2px var(--colorPrimario) solid;
-    border-right: 2px var(--colorPrimario) solid;
+    border-top: 4px var(--colorPrimario) solid;
+    border-right: 4px var(--colorPrimario) solid;
     border-top-right-radius: 10px;
 }
 .table-left {
-    border-left: 2px var(--colorPrimario) solid;
+    border-left: 4px var(--colorPrimario) solid;
 }
 .table-right {
-    border-right: 2px var(--colorPrimario) solid;
+    border-right: 4px var(--colorPrimario) solid;
 }
 .bottom-left {
-    border-bottom: 2px var(--colorPrimario) solid;
-    border-left: 2px var(--colorPrimario) solid;
+    border-bottom: 4px var(--colorPrimario) solid;
+    border-left: 4px var(--colorPrimario) solid;
     border-bottom-left-radius: 10px;
 }
 .bottom-right {
-    border-bottom: 2px var(--colorPrimario) solid;
-    border-right: 2px var(--colorPrimario) solid;
+    border-bottom: 4px var(--colorPrimario) solid;
+    border-right: 4px var(--colorPrimario) solid;
     border-bottom-right-radius: 10px;
 }
 
