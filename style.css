@@ -3,6 +3,8 @@
     --colorSecundario: #000;
     --colorBoton: #e6c200;
     --colorBoton2: #897400;
+    --colorBackground: #00b100;
+    --colorBackgroundGrad: #006200;
 }
 
 * {
@@ -22,7 +24,7 @@ body {
     max-width: 425px;
     display: grid;
     grid-template-columns: auto 100px;
-    grid-template-rows: 80px auto 60px;
+    grid-template-rows: 100px auto 60px;
     grid-template-areas: 
     "header header"
     "main sidebar"
@@ -30,8 +32,9 @@ body {
 }
 /* HEADER */
 header {
+    margin-bottom: 3rem;
     grid-area: header;
-    margin-bottom: 2rem;
+    background-image: linear-gradient(var(--colorBackgroundGrad), var(--colorBackground));
 }
 h1 {
     margin-top: 1.5rem;
@@ -59,7 +62,7 @@ h1 {
 /* SIDEBAR */
 button {
     margin-top: .5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     padding: .5rem;
     font-size: 2rem;
     font-weight: bold;
@@ -68,7 +71,7 @@ button {
     border-radius: 10px;
 }
 #boton_banca {
-    margin-top: 0;
+    margin-top: 2rem;
 }
 #boton_volver {
     margin-top: 3rem;
@@ -78,11 +81,16 @@ button {
     margin-top: 3rem;
     margin-bottom: 0;
 }
-.pases,
 .resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 2rem;
     line-height: 3rem;
     color: var(--colorPrimario);
+}
+.numeros {
+    justify-self: center
 }
 
 /* TABLA */
@@ -137,5 +145,6 @@ footer {
     font-size: 2rem;
     text-align: center;
     grid-area: footer;
+    background-image: linear-gradient(var(--colorBackground) 25%, var(--colorBackgroundGrad));
     color: var(--colorPrimario);
 }
