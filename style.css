@@ -80,7 +80,8 @@ button {
 }
 .pases,
 .resultados {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    line-height: 3rem;
     color: var(--colorPrimario);
 }
 
