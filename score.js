@@ -1,4 +1,4 @@
-var colorPrimario = "#008900";
+var colorPrimario = "#004e00";
 var  colorSecundario = "#000";
 var colorCheck = "#000";
 
@@ -127,7 +127,18 @@ function reset() {
         document.getElementById("label_punto").innerHTML = puntos;
         document.getElementById("label_ancar").innerHTML = ancares;
 
-        document.getElementById("B1").style.backgroundColor = colorPrimario;
+        let i = 0;
+        while (i < 91) {
+            i += 1;
+            let countB = "B" + i;
+            let countP = "P" + i;
+
+            document.getElementById(countB).style.backgroundColor = colorPrimario;
+            document.getElementById(countP).style.backgroundColor = colorPrimario;
+        }
+        
+
+        /*document.getElementById("B1").style.backgroundColor = colorPrimario;
         document.getElementById("P1").style.backgroundColor = colorPrimario;
         document.getElementById("B2").style.backgroundColor = colorPrimario;
         document.getElementById("P2").style.backgroundColor = colorPrimario;
@@ -314,7 +325,7 @@ function reset() {
         document.getElementById("B89").style.backgroundColor = colorPrimario;
         document.getElementById("P89").style.backgroundColor = colorPrimario;
         document.getElementById("B90").style.backgroundColor = colorPrimario;
-        document.getElementById("P90").style.backgroundColor = colorPrimario;
+        document.getElementById("P90").style.backgroundColor = colorPrimario;*/
     }
     else {
         alert("Seguimos jugando.")

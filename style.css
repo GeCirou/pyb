@@ -1,10 +1,11 @@
 :root {
     --colorPrimario: #FFF;
     --colorSecundario: #000;
-    --colorBoton: #e6c200;
+    --colorBoton: #ffda14;
     --colorBoton2: #897400;
-    --colorBackground: #008900;
-    --colorBackgroundGrad: #003b00;
+    --colorBackground: #004e00;
+    --colorBackgroundGrad: #001400;
+    /*--colorLetras: #ff0000;*/
 }
 
 * {
@@ -98,7 +99,14 @@ button {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(30, 1fr);
-    column-gap: 5px;
+    /*column-gap: 5px;*/
+}
+.numeroCasillero {
+    background: none;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: var(--colorBoton);
 }
 
 /* BORDES TABLA */
@@ -116,28 +124,36 @@ button {
 .top-left {
     border-top: 4px var(--colorPrimario) solid;
     border-left: 4px var(--colorPrimario) solid;
+    border-bottom: 4px var(--colorPrimario) solid;
     border-top-left-radius: 10px;
+    margin-left: .3rem;
 }
 .top-right {
     border-top: 4px var(--colorPrimario) solid;
     border-right: 4px var(--colorPrimario) solid;
+    border-bottom: 4px var(--colorPrimario) solid;
     border-top-right-radius: 10px;
+    margin-right: .3rem;
 }
 .table-left {
     border-left: 4px var(--colorPrimario) solid;
+    margin-left: .3rem;
 }
 .table-right {
     border-right: 4px var(--colorPrimario) solid;
+    margin-right: .3rem;
 }
 .bottom-left {
     border-bottom: 4px var(--colorPrimario) solid;
     border-left: 4px var(--colorPrimario) solid;
     border-bottom-left-radius: 10px;
+    margin-left: .3rem;
 }
 .bottom-right {
     border-bottom: 4px var(--colorPrimario) solid;
     border-right: 4px var(--colorPrimario) solid;
     border-bottom-right-radius: 10px;
+    margin-right: .3rem;
 }
 
 /* FOOTER */
