@@ -5,6 +5,8 @@
     --colorBoton2: #897400;
     --colorBoton3: #cccccc;
     --colorBoton4: #4c4c4c;
+    --colorBoton5: #d09156;
+    --colorBoton6: #3d2611;
     --colorBackground: #207720;
     --colorBackgroundGrad: #001400;
     --colorLetras: #ffda14;
@@ -105,6 +107,13 @@ button {
 .numeros {
     justify-self: center
 }
+.botones_accesorios {
+    margin-top: 6rem;
+}
+.boton_naipes,
+.boton_ayuda {
+    background-image: linear-gradient(45deg, var(--colorBoton5) 60%, var(--colorBoton6));
+}
 
 /* TABLA */
 .tabla_resultados {
@@ -119,6 +128,20 @@ button {
     text-align: center;
     font-weight: bold;
     color: var(--colorLetras);
+}
+.invisible {
+    height: auto;
+    width: auto;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image: none;
+    background-color: var(--colorBackground);
+}
+.invisible label {
+    color: var(--colorPrimario);
 }
 
 /* BORDES TABLA */
