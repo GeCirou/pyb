@@ -829,13 +829,16 @@ function numeroB90() {
 }
 
 // REGLAMENTO DE NAIPES Y AYUDA
+function instrucciones() {
+    alert('El juego comienza habiendo al menos 2 personas sentadas.\n Jugando de pie, solicite al pagador el retiro de su apuesta.\n\n El máximo es personal.\n\n No ocupe asientos cuando no juega.\n No dé conversación a los empleados, puede distraerlos.\n Siendo facultativo del jugador el "pedir o plantar" teniendo el punto 5, toda reflexión, observación o reproche al respecto están completamente prohibidos.\n\n Siendo la apuesta inicial superior a la mitad del máximo el descuento se efectuará en los pases impares.\n\n Las personas que ocupen asientos y los dejen reservados, alfinal del Sabot pierden su derecho.');
+}
 
 function naipes() {
-    alert("el 3 con el 8 planta");
+    alert('Tabla para el punto\n\n 0, 1, 2, 3, 4 - PIDE carta.\n 5 - A Voluntad.\n 6, 7 - PLANTA.\n 8, 9 - Pase definido.\n\n Tabla para la banca\n\n Teniendo 3 - PLANTA con 8.\n Teniendo 4 - PLANTA con 1, 8, 9, 0.\n Teniendo 5 - PLANTA con 1, 2, 3, 8, 9, 0.\n Teniendo 6 - PIDE con 6, 7.\n\n Teniendo la banca 5 y el punto planta. La banca PIDE.');
 }
 
 function ayuda() {
-    alert("acá van las indicaciones de como usar la app")
+    alert('Esta app está pensada para registrar los pases de un Sabot de Punto y Banca mientras se juega. No guarda este registro.\n\n Esta app permite marcar la suerte ganadora de cada pase utilizando los botones que se encuentran a la derecha, estos pases son registrados de manera secuencial, sin poder saltear un pase.\n\n Presionando en una celda de la tabla, el apostador tiene la posibilidad de registrar el puntaje de esa Suerte.\n\n El botón "Back" permite retroceder un pase, borrando la información de este.\n El botón "Reset" elimina toda la información registrada.\n\n El botón "Pautas" brinda al apostador ciertas reglas básicas a seguir durante el juego.\n El botón "Reglas" da acceso al Reglamento de Naipes que se aplica durante la partida.')
 }
 
 // BACK Y RESET

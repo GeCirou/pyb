@@ -102,14 +102,17 @@ button {
     font-size: 2rem;
     font-weight: bold;
     line-height: 3rem;
+    font-family: 'Libre Baskerville', serif;
     color: var(--colorPrimario);
 }
 .numeros {
+    font-size: 2.5rem;
     justify-self: center
 }
 .botones_accesorios {
     margin-top: 6rem;
 }
+.boton_instrucciones,
 .boton_naipes,
 .boton_ayuda {
     background-image: linear-gradient(45deg, var(--colorBoton5) 60%, var(--colorBoton6));
@@ -141,6 +144,9 @@ button {
     background-color: var(--colorBackground);
 }
 .invisible label {
+    display: grid;
+    place-items: center;
+    font-family: 'Libre Baskerville', serif;
     color: var(--colorPrimario);
 }
 
