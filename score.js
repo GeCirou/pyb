@@ -828,7 +828,7 @@ function numeroB90() {
     document.getElementById("labelNB90").innerHTML = num;
 }
 
-// REGLAMENTO DE NAIPES Y AYUDA
+// PAUTAS, REGLAMENTO DE NAIPES Y AYUDA
 function instrucciones() {
     alert('El juego comienza habiendo al menos 2 personas sentadas.\n Jugando de pie, solicite al pagador el retiro de su apuesta.\n\n El máximo es personal.\n\n No ocupe asientos cuando no juega.\n No dé conversación a los empleados, puede distraerlos.\n Siendo facultativo del jugador el "pedir o plantar" teniendo el punto 5, toda reflexión, observación o reproche al respecto están completamente prohibidos.\n\n Siendo la apuesta inicial superior a la mitad del máximo el descuento se efectuará en los pases impares.\n\n Las personas que ocupen asientos y los dejen reservados, alfinal del Sabot pierden su derecho.');
 }
