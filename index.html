@@ -570,21 +570,29 @@
             <button class="boton_reset" id="boton_volver" onclick="volver()">Back</button>
         </div>
         <div class="resultados">
-            <label>Pases:</label>
-            <label class="numeros" id="label_pase"></label>
-            <label>Punto:</label>
-            <label class="numeros" id="label_punto"></label>
-            <label>Banca:</label>
-            <label class="numeros" id="label_banca"></label>
-            <label>Ancar:</label>
-            <label class="numeros" id="label_ancar"></label>
+            <div class="resultados_label">
+                <label>Pases:</label>
+                <label class="numeros" id="label_pase"></label>
+            </div>
+            <div class="resultados_label">
+                <label>Punto:</label>
+                <label class="numeros" id="label_punto"></label>
+            </div>
+            <div class="resultados_label">
+                <label>Banca:</label>
+                <label class="numeros" id="label_banca"></label>
+            </div>
+            <div class="resultados_label" id="div_ancar">
+                <label>Ancar:</label>
+                <label class="numeros" id="label_ancar"></label>
+            </div>
         </div>
-        <button type="reset" class="boton_reset"  id="boton_reset" onclick="reset()">Reset</button>
         <div class="botones_accesorios">
             <button class="boton_instrucciones" onclick="instrucciones()">Pautas</button>
             <button class="boton_naipes" onclick="naipes()">Reglas</button>
             <button class="boton_ayuda" onclick="ayuda()">Ayuda</button>
         </div>
+        <button type="reset" class="boton_reset"  id="boton_reset" onclick="reset()">Reset</button>
     </aside>
     <footer>
         <p>Creado por: J.H.A.N.G.</p>

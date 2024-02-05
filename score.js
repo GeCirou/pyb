@@ -838,7 +838,7 @@ function naipes() {
 }
 
 function ayuda() {
-    alert('Esta app está pensada para registrar los pases de un Sabot de Punto y Banca mientras se juega. No guarda este registro.\n\n Esta app permite marcar la suerte ganadora de cada pase utilizando los botones que se encuentran a la derecha, estos pases son registrados de manera secuencial, sin poder saltear un pase.\n\n Presionando en una celda de la tabla, el apostador tiene la posibilidad de registrar el puntaje de esa Suerte.\n\n El botón "Back" permite retroceder un pase, borrando la información de este.\n El botón "Reset" elimina toda la información registrada.\n\n El botón "Pautas" brinda al apostador ciertas reglas básicas a seguir durante el juego.\n El botón "Reglas" da acceso al Reglamento de Naipes que se aplica durante la partida.')
+    alert('El objetivo de esta app es apuntar los pases de un sabot de Punto y Banca, no guardando estos registros.\n\n Esta app permite marcar la suerte ganadora de cada pase utilizando los botones que se encuentran a la derecha, estos pases son registrados de manera secuencial, sin poder saltear un pase.\n\n Presionando en las celdas de la tabla, se tendrá la posibilidad de anotar el puntaje de ambas suertes.\n\n El botón "Back" permite retroceder un pase, borrando la información anotada.\n El botón "Reset" elimina toda la información registrada.\n\n El botón "Pautas" brinda al apostador ciertas reglas básicas a seguir durante el juego.\n El botón "Reglas" da acceso al Reglamento de Naipes que se aplica durante la partida.')
 }
 
 // BACK Y RESET
