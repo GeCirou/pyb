@@ -834,7 +834,7 @@ function instrucciones() {
 }
 
 function naipes() {
-    alert('Tabla para el punto\n\n 0, 1, 2, 3, 4 - PIDE carta.\n 5 - A Voluntad.\n 6, 7 - PLANTA.\n 8, 9 - Pase definido.\n\n Tabla para la banca\n\n Teniendo 0, 1, 2 - PIDE carta.\n Teniendo 3 - PLANTA con 8.\n Teniendo 4 - PLANTA con 1, 8, 9, 0.\n Teniendo 5 - PLANTA con 1, 2, 3, 8, 9, 0.\n Teniendo 6 - PIDE carta con 6, 7.\n Teniendo 7 - PLANTA.\n Teniendo 8, 9 - Pase definido.\n\n Teniendo la banca 5 y el punto planta. La banca PIDE carta.');
+    alert('Tabla para el punto\n\n 0, 1, 2, 3, 4 - PIDE carta.\n 5 - A Voluntad.\n 6, 7 - PLANTA.\n 8, 9 - Pase definido.\n\n Tabla para la banca\n\n Teniendo 0, 1, 2 - PIDE carta.\n Teniendo 3 - PLANTA con 8.\n Teniendo 4 - PLANTA con 1, 8, 9, 0.\n Teniendo 5 - PLANTA con 1, 2, 3, 8, 9, 0.\n Teniendo 6 - PIDE carta con 6, 7.\n Teniendo 7 - PLANTA.\n Teniendo 8, 9 - Pase definido.\n\n Teniendo 5 la banca  y habiendo plantado el punto, la banca PIDE carta.');
 }
 
 function ayuda() {
