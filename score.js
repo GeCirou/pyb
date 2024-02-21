@@ -829,16 +829,16 @@ function numeroB90() {
 }
 
 // PAUTAS, REGLAMENTO DE NAIPES Y AYUDA
-function instrucciones() {
-    alert('Aquí van instrucciones para el público.');
-}
+// function instrucciones() {
+//     alert('Aquí van instrucciones para el público.');
+// }
 
 function naipes() {
     alert('Tabla para el punto\n\n 0, 1, 2, 3, 4 - PIDE carta.\n 5 - A Voluntad.\n 6, 7 - PLANTA.\n 8, 9 - Pase definido.\n\n Tabla para la banca\n\n Teniendo 0, 1, 2 - PIDE carta.\n Teniendo 3 - PLANTA con 8.\n Teniendo 4 - PLANTA con 1, 8, 9, 0.\n Teniendo 5 - PLANTA con 1, 2, 3, 8, 9, 0.\n Teniendo 6 - PIDE carta con 6, 7.\n Teniendo 7 - PLANTA.\n Teniendo 8, 9 - Pase definido.\n\n Teniendo 5 la banca  y habiendo plantado el punto, la banca PIDE carta.');
 }
 
 function ayuda() {
-    alert('El objetivo de esta app es apuntar los pases de un sabot de Punto y Banca, no guardando estos registros.\n\n Esta app permite marcar la suerte ganadora de cada pase utilizando los botones que se encuentran a la derecha, estos pases son registrados de manera secuencial, sin poder saltear un pase.\n\n Presionando en las celdas de la tabla, se tendrá la posibilidad de anotar el puntaje de ambas suertes.\n\n El botón "Back" permite retroceder un pase, borrando la información anotada.\n El botón "Reset" elimina toda la información registrada.\n\n El botón "Pautas" brinda al apostador ciertas reglas básicas a seguir durante el juego.\n El botón "Reglas" da acceso al Reglamento de Naipes que se aplica durante la partida.')
+    alert('El objetivo de esta app es apuntar los pases de un sabot de Punto y Banca, no guardando estos registros.\n\n Esta app permite marcar la suerte ganadora de cada pase utilizando los botones que se encuentran a la derecha, estos pases son registrados de manera secuencial, sin poder saltear un pase.\n\n Presionando en las celdas de la tabla, se tendrá la posibilidad de anotar el puntaje de ambas suertes.\n\n El botón "Back" permite retroceder un pase, borrando la información anotada.\n El botón "Reset" elimina toda la información registrada.\n\n El botón "Reglas" da acceso al Reglamento de Naipes que se aplica durante la partida.')
 }
 
 // BACK Y RESET
