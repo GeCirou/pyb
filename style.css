@@ -84,7 +84,7 @@ button {
     color: var(--colorSecundario);
     border-radius: 10px;
 }
-#boton_banca {
+#boton_punto {
     margin-top: 2rem;
 }
 .boton_reset {  
