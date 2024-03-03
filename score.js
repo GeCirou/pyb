@@ -1,8 +1,6 @@
 // MANTENER PANTALLA ACTIVA
 function mantenerPantallaActiva() {
-    if (typeof window !== 'undefined') {
-        window.requestAnimationFrame(mantenerPantallaActiva);
-    }
+    window.requestAnimationFrame(mantenerPantallaActiva);
 }
 
 mantenerPantallaActiva();
