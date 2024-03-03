@@ -1,3 +1,14 @@
+// MANTENER PANTALLA ACTIVA
+function mantenerPantallaActiva() {
+    if (typeof window !== 'undefined') {
+        window.requestAnimationFrame(mantenerPantallaActiva);
+    }
+}
+
+mantenerPantallaActiva();
+
+// CODIGO ORIGINAL
+
 var colorPrimario = "#207720";
 var  colorSecundario = "#000";
 var colorCheck = "#000";
