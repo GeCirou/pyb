@@ -22,8 +22,15 @@ const btnSwitch = document.querySelector('#switch');
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     btnSwitch.classList.toggle('active');
-    colorCheck = "#cccccc";
-    colorPrimario = "#003500";
+    if (colorCheck ==  "#000") {
+        colorCheck = "#cccccc";
+        colorPrimario = "#003500";
+    }
+    else {
+        colorCheck = "#000";
+        colorPrimario = "#207720";
+    }
+    
 })
 
 //ZOOM RESULTADOS
