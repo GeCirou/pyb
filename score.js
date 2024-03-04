@@ -26,9 +26,22 @@ btnSwitch.addEventListener('click', () => {
     colorPrimario = "#003500";
 })
 
-
-
-
+//ZOOM RESULTADOS
+// var zoomActivo = false;
+function zoomResultadosOn() {
+    document.body.style.zoom = "50%";
+    // if (zoomActivo == false) {
+        
+    //     zoomActivo = true;
+    // }
+    // else {
+    //     document.body.style.zoom = "100%";
+    //     zoomActivo = false;
+    // }
+}
+function zoomResultadosOff() {
+    document.body.style.zoom = "100%";
+}
 // MARCADOR RESULTADOS
 
 var pases = 0;
