@@ -12,19 +12,23 @@ async function solicitarBloqueoPantalla() {
     }
 }
 
+var colorPrimario = "#207720";
+var  colorSecundario = "#000";
+var colorCheck = "#000";
+
 //MODO OSCURO
 const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     btnSwitch.classList.toggle('active');
+    colorCheck = "#cccccc";
 })
 
-// CODIGO ORIGINAL
 
-var colorPrimario = "#207720";
-var  colorSecundario = "#000";
-var colorCheck = "#000";
+
+
+// MARCADOR RESULTADOS
 
 var pases = 0;
 var bancas = 0;

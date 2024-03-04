@@ -206,7 +206,7 @@ button {
     display: grid;
     place-items: center;
     font-family: 'Libre Baskerville', serif;
-    color: var(--colorPrimario);
+    color: var(--colorBoton5);
 }
 body.dark .invisible {
     background-color: var(--colorBackgroundOscuro);
