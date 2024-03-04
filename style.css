@@ -9,7 +9,9 @@
     --colorBoton6: #3d2611;
     --colorBackground: #207720;
     --colorBackgroundGrad: #001400;
+    --colorBackgroundOscuro: #003500;
     --colorLetras: #ffda14;
+    --colorSwitch1: #ff0000;
 }
 
 * {
@@ -25,7 +27,12 @@ body {
     background-color: var(--colorBackground);
     min-height: 100%;
     font-family:  'Baskervville', 'Libre Baskerville', serif;
+    transition: .3s ease all;
 }
+.dark {
+    background-color: var(--colorBackgroundOscuro);
+}
+
 .grid-container {
     max-width: 425px;
     display: grid;
@@ -40,7 +47,11 @@ body {
 header {
     margin-bottom: 3rem;
     grid-area: header;
-    background-image: linear-gradient(var(--colorBackgroundGrad), var(--colorBackground));
+    background-image: linear-gradient(var(--colorSecundario), var(--colorBackground));
+    transition: .3s ease all;
+}
+body.dark header {
+    background-image: linear-gradient(var(--colorBackgroundGrad), var(--colorBackgroundOscuro));
 }
 h1 {
     margin-top: 1.5rem;
@@ -72,6 +83,7 @@ h1 {
     flex-direction: column;
     place-items:  center;
 }
+
 button {
     width: 80px;
     margin-top: .5rem;
@@ -84,6 +96,45 @@ button {
     color: var(--colorSecundario);
     border-radius: 10px;
 }
+
+.modoSwitch {
+    margin: 1rem auto;
+    width: 55px;
+    padding: .1rem;
+    background-image: linear-gradient(90deg, var(--colorBoton4) 2%, var(--colorSecundario));
+    color: var(--colorPrimario);
+    border-radius: 1000px;
+    position: relative;
+    display: flex;
+}
+.modoSwitch::after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: var(--colorBoton4);
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+.modoSwitch.active {
+    background-image: linear-gradient(90deg, var(--colorSwitch1) 10%, var(--colorSecundario));
+}
+.modoSwitch.active::after {
+    left: unset;
+    right: 0;
+}
+.modoSwitch span {
+    height:  27px;
+    width: 30px;
+    display: block;
+    background: none;
+}
+
 #boton_punto {
     margin-top: 2rem;
 }
@@ -149,12 +200,16 @@ button {
     border: none;
     background-image: none;
     background-color: var(--colorBackground);
+    transition: .3s ease all;
 }
 .invisible label {
     display: grid;
     place-items: center;
     font-family: 'Libre Baskerville', serif;
     color: var(--colorPrimario);
+}
+body.dark .invisible {
+    background-color: var(--colorBackgroundOscuro);
 }
 
 /* BORDES TABLA */
@@ -212,4 +267,8 @@ footer {
     grid-area: footer;
     background-image: linear-gradient(var(--colorBackground) 25%, var(--colorBackgroundGrad));
     color: var(--colorPrimario);
+    transition: .3s ease all;
+}
+body.dark footer {
+    background-image: linear-gradient(var(--colorBackgroundOscuro) 25%, var(--colorSecundario));
 }
