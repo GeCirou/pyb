@@ -27,17 +27,8 @@ btnSwitch.addEventListener('click', () => {
 })
 
 //ZOOM RESULTADOS
-// var zoomActivo = false;
 function zoomResultadosOn() {
-    document.body.style.zoom = "50%";
-    // if (zoomActivo == false) {
-        
-    //     zoomActivo = true;
-    // }
-    // else {
-    //     document.body.style.zoom = "100%";
-    //     zoomActivo = false;
-    // }
+    document.body.style.zoom = "60%";
 }
 function zoomResultadosOff() {
     document.body.style.zoom = "100%";
