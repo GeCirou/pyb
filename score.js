@@ -35,7 +35,7 @@ btnSwitch.addEventListener('click', () => {
 
 //ZOOM RESULTADOS
 function zoomResultadosOn() {
-    document.body.style.zoom = "60%";
+    document.body.style.zoom = "50%";
 }
 function zoomResultadosOff() {
     document.body.style.zoom = "100%";
