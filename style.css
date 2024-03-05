@@ -27,7 +27,7 @@ body {
     background-color: var(--colorBackground);
     min-height: 100%;
     font-family:  'Baskervville', 'Libre Baskerville', serif;
-    transition: .3s ease all;
+    transition: .2s ease all;
 }
 .dark {
     background-color: var(--colorBackgroundOscuro);
@@ -79,15 +79,20 @@ h1 {
 
 /* SIDEBAR */
 .botonera {
+    padding-bottom: 1rem;
     display: flex;
-    flex-direction: column;
-    place-items:  center;
+    flex-direction: row;
+    border-radius: 10px;
+    /* place-items:  center; */
+    background-color: var(--colorBackground);
 }
 
 button {
-    width: 80px;
-    margin-top: .5rem;
-    margin-bottom: 4rem;
+    margin: 0 auto;
+    height: 40px;
+    width: 50px;
+    /* margin-top: .5rem;
+    margin-bottom: 4rem; */
     padding: .5rem;
     font-family:  'Baskervville', 'Libre Baskerville', serif;
     font-size: 2rem;
@@ -135,16 +140,21 @@ button {
     background: none;
 }
 
-#boton_punto {
-    margin-top: 2rem;
+#boton_punto,
+#boton_banca {
+    /* margin-top: 2rem; */
+    margin-right: 3rem;
 }
 .boton_reset {  
     margin-top: 4rem;
     margin-bottom: 0;
+    width: 80px;
     background-image: linear-gradient(45deg, var(--colorBoton3) 65%, var(--colorBoton4));
 }
 #boton_volver {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
+    margin-left: 4rem;
+    background-image: linear-gradient(45deg, var(--colorBoton3) 65%, var(--colorBoton4));
 }
 .resultados {
     font-size: 2rem;
@@ -173,6 +183,8 @@ button {
 /* .boton_instrucciones, */
 .boton_naipes,
 .boton_ayuda {
+    margin-bottom: 3rem;
+    width: 80px;
     background-image: linear-gradient(45deg, var(--colorBoton5) 60%, var(--colorBoton6));
 }
 
@@ -200,7 +212,7 @@ button {
     border: none;
     background-image: none;
     background-color: var(--colorBackground);
-    transition: .3s ease all;
+    transition: .2s ease all;
 }
 .invisible label {
     display: grid;
@@ -261,13 +273,17 @@ body.dark .invisible {
 
 /* FOOTER */
 footer {
+    margin-bottom: 1rem;
     padding-top: 2rem;
+    position: fixed;
+    top: 90vh;
+    left: 2vw;
     font-size: 2rem;
     text-align: center;
     grid-area: footer;
-    background-image: linear-gradient(var(--colorBackground) 25%, var(--colorBackgroundGrad));
+    /* background-image: linear-gradient(var(--colorBackground) 25%, var(--colorBackgroundGrad)); */
     color: var(--colorPrimario);
-    transition: .3s ease all;
+    transition: .2s ease all;
 }
 body.dark footer {
     background-image: linear-gradient(var(--colorBackgroundOscuro) 25%, var(--colorSecundario));

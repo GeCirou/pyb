@@ -585,12 +585,12 @@
                 <label class="numeros" id="label_ancar"></label>
             </div>
         </div>
-        <div class="botonera">
+        <!-- <div class="botonera">
             <button id="boton_punto" onclick="puntoGana()">Punto</button>
             <button id="boton_banca" onclick="bancaGana()">Banca</button>
             <button id="boton_ancar" onclick="ancarDio()">Ancar</button>
             <button class="boton_reset" id="boton_volver" onclick="volver()">Back</button>
-        </div>
+        </div> -->
         <div class="botones_accesorios">
             <!-- <button class="boton_instrucciones" onclick="instrucciones()">Pautas</button> -->
             <button class="boton_naipes" onclick="naipes()">Reglas</button>
@@ -599,7 +599,12 @@
         <button type="reset" class="boton_reset"  id="boton_reset" onclick="reset()">Reset</button>
     </aside>
     <footer>
-        <p>Creado por: J.H.A.N.G.</p>
+        <div class="botonera">
+            <button id="boton_punto" onclick="puntoGana()">P</button>
+            <button id="boton_banca" onclick="bancaGana()">B</button>
+            <button id="boton_ancar" onclick="ancarDio()">A</button>
+            <button class="boton_volver" id="boton_volver" onclick="volver()">&#8630</button>
+        </div>
     </footer>
     <script src="score.js"></script>
 </body>
