@@ -64,7 +64,7 @@ h1 {
 /* MAIN */
 .main-tabla,
 .main-resultados {
-    margin-bottom: 12vh;
+    margin-bottom: 7vh;
 }
 
 .main-tabla {
@@ -280,7 +280,7 @@ footer {
     margin-bottom: 1rem;
     padding-top: 2rem;
     position: fixed;
-    bottom: 10vh;
+    bottom: 5vh;
     left: 2vw;
     font-size: 2rem;
     text-align: center;
