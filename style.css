@@ -79,9 +79,6 @@ h1 {
 
 /* SIDEBAR */
 .botonera {
-    position: fixed;
-    bottom: 10vh;
-    left: 2vw;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -277,6 +274,9 @@ body.dark .invisible {
 footer {
     margin-bottom: 1rem;
     padding-top: 2rem;
+    position: fixed;
+    bottom: 15vh;
+    left: 2vw;
     font-size: 2rem;
     text-align: center;
     grid-area: footer;
